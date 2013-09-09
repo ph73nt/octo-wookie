@@ -31,6 +31,14 @@ public class PatientName {
 	public PatientName(){
 		
 	}
+	
+	public PatientName(String familyname, String givenName, String middlenames, String prefix, String suffix){
+		this.familyName = familyname;
+		this.givenName = givenName;
+		this.middleNames = middlenames;
+		this.prefix = prefix;
+		this.suffix = suffix;
+	}
 
 	/**
 	 * Makes a valid DICOM compliant name. Trailing "^" characters are stripped.
@@ -43,9 +51,9 @@ public class PatientName {
 		StringBuffer name = new StringBuffer(64);
 		name.append(familyName == null ? "" : familyName);
 		name.append("^");
-		name.append(middleNames == null ? "" : middleNames);
-		name.append("^");
 		name.append(givenName == null ? "" : givenName);
+		name.append("^");
+		name.append(middleNames == null ? "" : middleNames);
 		name.append("^");
 		name.append(prefix == null ? "" : prefix);
 		name.append("^");
