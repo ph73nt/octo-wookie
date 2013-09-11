@@ -1,7 +1,7 @@
 /**
- * @author Neil
+ * @author Neil J Thomson (njt@fishlegs.co.uk)
  *
- * Copyright (C) 2013 Neil
+ * Copyright (C) 2013 Neil J Thomson
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
