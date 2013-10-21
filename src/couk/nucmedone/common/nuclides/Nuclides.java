@@ -1,6 +1,6 @@
 package couk.nucmedone.common.nuclides;
 
-class Nuclides {
+public class Nuclides {
 	
 	private double halfLife;
 	private String name;
