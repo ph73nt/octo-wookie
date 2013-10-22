@@ -25,7 +25,11 @@ import java.util.Calendar;
 
 /**
  * A container class for demographic objects.
+<<<<<<< HEAD
  * @author Neil J Thomson
+=======
+ * @author Neil Thomson
+>>>>>>> refs/remotes/origin/phialAndRefactor
  *
  */
 public class Patient {
