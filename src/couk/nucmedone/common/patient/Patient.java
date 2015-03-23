@@ -36,6 +36,7 @@ public class Patient {
 	private double height;
 	private PatientName patientName;
 	private String primaryID;
+	private String secondaryID;
 	private double weight;
 	
 	public Patient(){
@@ -66,10 +67,14 @@ public class Patient {
 		return primaryID;
 	}
 	
+	public String getSecondaryID() {
+		return secondaryID;
+	}
+	
 	public double getWeight(){
 		return weight;
 	}
-	
+
 	public void setDateOfBirth(Calendar dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
@@ -84,6 +89,10 @@ public class Patient {
 
 	public void setPrimaryID(String primaryID) {
 		this.primaryID = primaryID;
+	}
+
+	public void setSecondaryID(String secondaryID) {
+		this.secondaryID = secondaryID;
 	}
 
 	public void setWeight(double weight){
