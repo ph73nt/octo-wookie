@@ -33,9 +33,96 @@ import couk.nucmedone.common.nuclides.Nuclides;
  *
  */
 public class Phial {
-	
-	public Phial(Nuclides nuclide, DoublePlus volume, DoublePlus activity, Calendar assayDate){
-		
+
+	private String batch;
+	private DoublePlus currentVolume;
+	private Calendar expDate;
+	private DoublePlus initVol;
+	private String lot;
+	private String manufacturer;
+	private Nuclides nuclide;
+	private String pharmaceutical;
+	private double refActivity;
+	private Calendar refDate;
+
+	public String getBatch() {
+		return batch;
+	}
+
+	public DoublePlus getCurrentVolume() {
+		return currentVolume;
+	}
+
+	public Calendar getExpDate() {
+		return expDate;
+	}
+
+	public DoublePlus getInitVol() {
+		return initVol;
+	}
+
+	public String getLot() {
+		return lot;
+	}
+
+	public String getManufacturer() {
+		return manufacturer;
+	}
+
+	public Nuclides getNuclide() {
+		return nuclide;
+	}
+
+	public String getPharmaceutical() {
+		return pharmaceutical;
+	}
+
+	public double getRefActivity() {
+		return refActivity;
+	}
+
+	public Calendar getRefDate() {
+		return refDate;
+	}
+
+	public void setBatch(String batch) {
+		this.batch = batch;
+	}
+
+	public void setCurrentVolume(DoublePlus currentVolume) {
+		this.currentVolume = currentVolume;
+	}
+
+	public void setExpDate(Calendar expDate) {
+		this.expDate = expDate;
+	}
+
+	public void setInitVol(DoublePlus initVol) {
+		this.initVol = initVol;
+	}
+
+	public void setLot(String lot) {
+		this.lot = lot;
+	}
+
+	public void setManufacturer(String manufacturer) {
+		this.manufacturer = manufacturer;
+	}
+
+	public void setNuclide(Nuclides nuclide) {
+		this.nuclide = nuclide;
+	}
+
+	public void setPharmaceutical(String pharmaceutical) {
+		this.pharmaceutical = pharmaceutical;
+	}
+
+	public void setRefActivity(double refActivity) {
+		this.refActivity = refActivity;
+	}
+
+	public void setRefDate(Calendar refDate) {
+		this.refDate = refDate;
 	}
 
 }
